@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9NliK68eunzQ5nS4FS7x4q57cpIfiOLloUCNmaiFrqbmDVZq68b3QbBh9upCgH8nt+3jdQtc2qFD9vNuTgIFfA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sreec\\Downloads\\WxInjector-1.2.2\\WxInjector-1.2.2\\WxInjector.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sreec\\.nuget\\packages\\bleak\\3.1.1\\bleak.3.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

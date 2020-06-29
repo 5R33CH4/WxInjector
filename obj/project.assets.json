@@ -1,0 +1,98 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Bleak/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/Bleak.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Bleak.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bleak/3.1.1": {
+      "sha512": "rFygeg/TRkEMlId4Sq6Jaawua8x3sKTiqdFw/SjN/IL8Ls9s7PJPhgSwj9lqDHrA/rOBIpYyAGD+4TotX1/3Jg==",
+      "type": "package",
+      "path": "bleak/3.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bleak.3.1.1.nupkg.sha512",
+        "bleak.nuspec",
+        "lib/netcoreapp3.0/Bleak.dll",
+        "lib/netcoreapp3.0/Bleak.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Bleak >= 3.1.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sreec\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.2.2",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\sreec\\Downloads\\WxInjector-1.2.2\\WxInjector-1.2.2\\WxInjector.csproj",
+      "projectName": "WxInjector",
+      "projectPath": "C:\\Users\\sreec\\Downloads\\WxInjector-1.2.2\\WxInjector-1.2.2\\WxInjector.csproj",
+      "packagesPath": "C:\\Users\\sreec\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sreec\\Downloads\\WxInjector-1.2.2\\WxInjector-1.2.2\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\sreec\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "Bleak": {
+            "target": "Package",
+            "version": "[3.1.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
