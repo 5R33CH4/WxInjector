@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <StartupObject>WxInjector.App</StartupObject>
+    <Authors>Dennise</Authors>
+    <Copyright>Copyright © 2020</Copyright>
+    <NeutralLanguage>en</NeutralLanguage>
+    <SignAssembly>true</SignAssembly>
+	  <Version>1.2.2</Version>
+	  <ApplicationIcon>Resources\Icon.ico</ApplicationIcon>
+	  <AssemblyOriginatorKeyFile>Properties\AssemblyKey.snk</AssemblyOriginatorKeyFile>
+	  <Company>Aprodots</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\PublishProfiles\**" />
+    <EmbeddedResource Remove="Properties\PublishProfiles\**" />
+    <None Remove="Properties\PublishProfiles\**" />
+    <Page Remove="Properties\PublishProfiles\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove=".gitattributes" />
+    <None Remove=".gitignore" />
+    <None Remove="LICENSE" />
+    <None Remove="VERSION" />
+  </ItemGroup>
+
+	<ItemGroup>
+    <PackageReference Include="Bleak" Version="3.1.1" />
+  </ItemGroup>
+
+</Project>
